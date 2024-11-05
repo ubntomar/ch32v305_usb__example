@@ -2544,21 +2544,21 @@ OUTPUT(SimulateCDC.elf elf32-littleriscv)
  .debug_ranges  0x00000000000006d0       0xe0 ./Peripheral/src/ch32v30x_usart.o
  .debug_ranges  0x00000000000007b0       0x40 ./Debug/debug.o
 
-.debug_line     0x0000000000000000     0x9f8d
+.debug_line     0x0000000000000000     0x9f85
  .debug_line    0x0000000000000000     0x1809 ./User/USB_Device/ch32v30x_usbhs_device.o
  .debug_line    0x0000000000001809      0x211 ./User/USB_Device/usb_desc.o
  .debug_line    0x0000000000001a1a      0xf01 ./User/UART/UART.o
- .debug_line    0x000000000000291b      0x42c ./User/ch32v30x_it.o
- .debug_line    0x0000000000002d47      0x589 ./User/main.o
- .debug_line    0x00000000000032d0      0x655 ./User/system_ch32v30x.o
- .debug_line    0x0000000000003925      0x153 ./Startup/startup_ch32v30x_D8C.o
- .debug_line    0x0000000000003a78      0x39a ./Peripheral/src/ch32v30x_dbgmcu.o
- .debug_line    0x0000000000003e12      0x92a ./Peripheral/src/ch32v30x_dma.o
- .debug_line    0x000000000000473c      0xdcf ./Peripheral/src/ch32v30x_gpio.o
- .debug_line    0x000000000000550b     0x14db ./Peripheral/src/ch32v30x_rcc.o
- .debug_line    0x00000000000069e6     0x231d ./Peripheral/src/ch32v30x_tim.o
- .debug_line    0x0000000000008d03      0xcb7 ./Peripheral/src/ch32v30x_usart.o
- .debug_line    0x00000000000099ba      0x5d3 ./Debug/debug.o
+ .debug_line    0x000000000000291b      0x424 ./User/ch32v30x_it.o
+ .debug_line    0x0000000000002d3f      0x589 ./User/main.o
+ .debug_line    0x00000000000032c8      0x655 ./User/system_ch32v30x.o
+ .debug_line    0x000000000000391d      0x153 ./Startup/startup_ch32v30x_D8C.o
+ .debug_line    0x0000000000003a70      0x39a ./Peripheral/src/ch32v30x_dbgmcu.o
+ .debug_line    0x0000000000003e0a      0x92a ./Peripheral/src/ch32v30x_dma.o
+ .debug_line    0x0000000000004734      0xdcf ./Peripheral/src/ch32v30x_gpio.o
+ .debug_line    0x0000000000005503     0x14db ./Peripheral/src/ch32v30x_rcc.o
+ .debug_line    0x00000000000069de     0x231d ./Peripheral/src/ch32v30x_tim.o
+ .debug_line    0x0000000000008cfb      0xcb7 ./Peripheral/src/ch32v30x_usart.o
+ .debug_line    0x00000000000099b2      0x5d3 ./Debug/debug.o
 
 .debug_str      0x0000000000000000     0x37ff
  .debug_str     0x0000000000000000     0x17a0 ./User/USB_Device/ch32v30x_usbhs_device.o
