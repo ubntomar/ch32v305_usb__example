@@ -182,7 +182,7 @@ GPIO_ResetBits(GPIOA, GPIO_Pin_15);  // LED OFF
    - Monitor USB power status
 
 2. **No Data Reception**
-   - Verify COM port settings (115200 8N1)
+   - Verify COM port settings (9600 8N1)
    - Check message formatting (\r\n)
    - Monitor transmission timing
 
